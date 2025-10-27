@@ -1,5 +1,0 @@
-/home/lilian/Documents/projects/c/balalo/out/build/GCC 15/CMakeFiles/Balalo.dir
-/home/lilian/Documents/projects/c/balalo/out/build/GCC 15/CMakeFiles/package.dir
-/home/lilian/Documents/projects/c/balalo/out/build/GCC 15/CMakeFiles/package_source.dir
-/home/lilian/Documents/projects/c/balalo/out/build/GCC 15/CMakeFiles/edit_cache.dir
-/home/lilian/Documents/projects/c/balalo/out/build/GCC 15/CMakeFiles/rebuild_cache.dir
