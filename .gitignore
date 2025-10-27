@@ -1,3 +1,7 @@
 .vscode/
 
 out/
+
+lib/raylib/
+
+lib/raylib-cpp/
