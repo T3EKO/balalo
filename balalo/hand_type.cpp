@@ -1,9 +1,17 @@
 #include "hand_type.h"
 
-HandType::HandType(std::string name, std::function<bool(Array<std::shared_ptr<PlayingCard>>)> predicate, double baseChips, double baseMult) : name{name}, predicate{predicate}, baseChips{baseChips}, baseMult{baseMult} { }
+HandType::HandType(std::string name, std::function<bool(Array<std::shared_ptr<PlayingCard>>)> predicate, size_t priority, double baseChips, double baseMult) : name{name}, predicate{predicate}, priority{priority}, baseChips{baseChips}, baseMult{baseMult} { }
 
 std::string HandType::getName() {
     return name;
+}
+
+Array<size_t> HandType::getAllMatches(Array<std::shared_ptr<PlayingCard>> cards) {
+    return getAllValidHands(cards, predicate);
+}
+
+size_t HandType::getPriority() {
+    return priority;
 }
 
 double HandType::getBaseChips() {
@@ -12,10 +20,6 @@ double HandType::getBaseChips() {
 
 double HandType::getBaseMult() {
     return baseMult;
-}
-
-Array<size_t> HandType::getAllMatches(Array<std::shared_ptr<PlayingCard>> cards) {
-    return getAllValidHands(cards, predicate);
 }
 
 Array<size_t> countRanks(Array<Rank> ranks) {

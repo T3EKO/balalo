@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(Balalo VERSION 0.1.0 LANGUAGES C CXX)
 
-# add_subdirectory(lib/raylib)
-# add_subdirectory(lib/raylib-cpp)
-
 add_executable(Balalo balalo.h main.cpp
     ulilities/array.h ulilities/array.cpp
     balalo/card.h balalo/card.cpp
@@ -16,7 +13,6 @@ add_executable(Balalo balalo.h main.cpp
     balalo/run_manager.h balalo/run_manager.cpp
     balalo/game_manager.h balalo/game_manager.cpp
 )
-target_link_libraries(Balalo raylib raylib_cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

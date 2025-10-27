@@ -13,9 +13,7 @@ private:
     std::shared_ptr<RunManager> runManager;
 
     Array<std::shared_ptr<PlayingCard>> cardsInDeck;
-    // Array<std::shared_ptr<PlayingCard>> cardsInHand;
     CardGroup hand;
-
     Array<std::shared_ptr<PlayingCard>> cardsDiscarded;
 
     std::mt19937 gen;
@@ -47,9 +45,7 @@ public:
     bool swapSelectedCards();
 
     void discardSelectedCards();
-    // ScoringResult playCards(Array<size_t> cardIndices);
-
-    // ScoringResult scoreHand(HandScoreInfo handScoreInfo);
+    void playSelectedCards();
 
     void sortHandByRank();
     void sortHandBySuit();

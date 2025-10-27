@@ -92,51 +92,11 @@ void RoundManager::discardSelectedCards() {
     }
 }
 
-// ScoringResult RoundManager::playCards(Array<size_t> cardIndices) {
-//     Array<std::shared_ptr<PlayingCard>> cards;
-//     for(size_t i{0};i < cardIndices.size();i++) {
-//         cards.append(cardsInHand[cardIndices[i]]);
-//         cardsInHand[cardIndices[i]] = nullptr;
-//     }
-//     cardsInHand = cardsInHand.filter([](auto card, auto index, auto array) {
-//         return card != nullptr;
-//     });
-//     HandScoreInfo handScoreInfo = getHandScoreInfo(cards);
-//     return scoreHand(handScoreInfo);
-// }
+void RoundManager::playSelectedCards() {
+    Array<std::shared_ptr<Card>> cards = hand.removeSelectedCards();
 
-// ScoringResult RoundManager::scoreHand(HandScoreInfo handScoreInfo) {
-//     ScoringResult res{};
-
-//     Hand hand = runManager->getHand(handScoreInfo.scoredHand);
-//     double chips = hand.getChips();
-//     double mult = hand.getMult();
-
-//     res.baseChips = chips;
-//     res.baseMult = mult;
-
-//     for(size_t i = 0;i < handScoreInfo.scoringCards.size();i++) {
-//         double cardChips = handScoreInfo.cards[handScoreInfo.scoringCards[i]]->getValue();
-//         chips += cardChips;
-//         res.cardScores.append(CardScoringResult{handScoreInfo.scoringCards[i], cardChips, 0});
-//     }
-
-//     double handScore = chips * mult;
-//     double newRoundScore = roundScore + handScore;
-
-//     res.cards = handScoreInfo.cards;
-//     res.scoringCards = handScoreInfo.scoringCards;
-//     res.scoredHandId = handScoreInfo.scoredHand;
-//     res.finalChips = chips;
-//     res.finalMult = mult;
-//     res.handScore = handScore;
-//     res.lastRoundScore = roundScore;
-//     res.roundScore = newRoundScore;
-
-//     roundScore = newRoundScore;
-
-//     return res;
-// }
+    
+}
 
 void RoundManager::sortHandByRank() {
     hand.sortCards([](std::shared_ptr<Card> a, std::shared_ptr<Card> b) {

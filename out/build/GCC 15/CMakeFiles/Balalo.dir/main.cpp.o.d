@@ -152,99 +152,6 @@ CMakeFiles/Balalo.dir/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
  /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/iterator \
  /usr/include/c++/15.2.1/bits/stream_iterator.h \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/raylib-cpp.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./AudioDevice.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././RaylibException.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././raylib.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib/src/raylib.h \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././raylib-cpp-utils.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././raylib.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./AudioStream.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./AutomationEventList.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./BoundingBox.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Camera2D.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Vector2.hpp \
- /usr/include/c++/15.2.1/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/15.2.1/bits/specfun.h \
- /usr/include/c++/15.2.1/limits /usr/include/c++/15.2.1/tr1/gamma.tcc \
- /usr/include/c++/15.2.1/tr1/special_function_util.h \
- /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
- /usr/include/c++/15.2.1/tr1/beta_function.tcc \
- /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
- /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
- /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
- /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
- /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
- /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
- /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
- /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././raylib-cpp-utils.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././raymath.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib/src/raymath.h \
- /usr/include/c++/15.2.1/math.h \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Camera3D.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Vector3.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Color.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Vector4.hpp \
- /usr/include/c++/15.2.1/utility \
- /usr/include/c++/15.2.1/bits/stl_relops.h \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./FileData.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./FileText.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Font.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././TextureUnmanaged.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././Image.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././././Color.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././././RaylibException.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././././raylib-cpp-utils.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././././raylib.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././Material.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././RaylibException.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././Vector2.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Functions.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Gamepad.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Image.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Keyboard.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Functions.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Material.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Matrix.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././raymath.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Mesh.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././MeshUnmanaged.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././BoundingBox.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././Matrix.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./././Model.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Model.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Model.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./ModelAnimation.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././Mesh.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Mouse.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Music.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Ray.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/././RayCollision.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./RayCollision.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./RaylibException.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Rectangle.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./RenderTexture.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Shader.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./ShaderUnmanaged.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib/src/rlgl.h \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Texture.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Sound.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Text.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Texture.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./TextureUnmanaged.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Touch.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Vector2.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Vector3.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Vector4.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./VrStereoConfig.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Wave.hpp \
- /home/lilian/Documents/projects/c/balalo/lib/raylib-cpp/include/./Window.hpp \
  /home/lilian/Documents/projects/c/balalo/ulilities/array.h \
  /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algo.h \
@@ -284,7 +191,27 @@ CMakeFiles/Balalo.dir/main.cpp.o: \
  /home/lilian/Documents/projects/c/balalo/balalo/hand_type.h \
  /home/lilian/Documents/projects/c/balalo/balalo/hand_instance.h \
  /home/lilian/Documents/projects/c/balalo/balalo/round_manager.h \
- /usr/include/c++/15.2.1/random /usr/include/c++/15.2.1/cstdint \
+ /usr/include/c++/15.2.1/random /usr/include/c++/15.2.1/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/15.2.1/bits/specfun.h \
+ /usr/include/c++/15.2.1/limits /usr/include/c++/15.2.1/tr1/gamma.tcc \
+ /usr/include/c++/15.2.1/tr1/special_function_util.h \
+ /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
+ /usr/include/c++/15.2.1/tr1/beta_function.tcc \
+ /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
+ /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
+ /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
+ /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
+ /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
+ /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
+ /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
+ /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/15.2.1/bits/random.h \

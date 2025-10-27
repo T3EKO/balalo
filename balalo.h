@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 #include <iterator>
-// #include "lib/raylib-cpp/include/raylib-cpp.hpp"
 #include "ulilities/array.h"
 #include "balalo/playing_card.h"
 #include "balalo/deck.h"

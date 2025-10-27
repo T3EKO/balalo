@@ -17,6 +17,8 @@ public:
 
     Array<size_t> getAllMatches(Array<std::shared_ptr<PlayingCard>> cards);
 
+    size_t getPriority();
+
     size_t getLevel();
     double getChips();
     double getMult();

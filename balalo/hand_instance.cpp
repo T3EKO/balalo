@@ -10,6 +10,10 @@ Array<size_t> HandInstance::getAllMatches(Array<std::shared_ptr<PlayingCard>> ca
     return type->getAllMatches(cards);
 }
 
+size_t HandInstance::getPriority() {
+    return type->getPriority();
+}
+
 size_t HandInstance::getLevel() {
     return level;
 }

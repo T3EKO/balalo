@@ -10,15 +10,19 @@ private:
     std::string name;
     std::function<bool(Array<std::shared_ptr<PlayingCard>>)> predicate;
 
+    size_t priority;
+
     double baseChips;
     double baseMult;
 
 public:
-    HandType(std::string name, std::function<bool(Array<std::shared_ptr<PlayingCard>>)> predicate, double baseChips, double baseMult);
+    HandType(std::string name, std::function<bool(Array<std::shared_ptr<PlayingCard>>)> predicate, size_t priority, double baseChips, double baseMult);
 
     std::string getName();
 
     Array<size_t> getAllMatches(Array<std::shared_ptr<PlayingCard>> cards);
+
+    size_t getPriority();
 
     double getBaseChips();
     double getBaseMult();
