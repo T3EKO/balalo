@@ -4,10 +4,11 @@
 #include <iostream>
 #include <string>
 #include <memory>
+#include <cstdint>
 #include "card.h"
 
-typedef u_int32_t Suit;
-typedef u_int32_t Rank;
+typedef uint32_t Suit;
+typedef uint32_t Rank;
 
 enum Suits : Suit {
     SPADES = 0,

@@ -14,6 +14,7 @@ private:
 
     Array<std::shared_ptr<PlayingCard>> cardsInDeck;
     CardGroup hand;
+    size_t maxSelection = 5;
     Array<std::shared_ptr<PlayingCard>> cardsDiscarded;
 
     std::mt19937 gen;
@@ -26,6 +27,8 @@ public:
     std::shared_ptr<RunManager> getRunManager();
 
     double getRoundScore();
+    size_t getHandCapacity();
+    size_t getCurrentHandSize();
     Array<std::shared_ptr<PlayingCard>> getCardsInHand();
     Array<size_t> getSelectedIndices();
 
@@ -33,7 +36,7 @@ public:
 
     void drawCard();
     void drawCards(size_t amount);
-    void drawUp();
+    bool drawUp();
 
     void selectCard(size_t idx);
     void selectCards(Array<size_t> idcs);
@@ -41,8 +44,12 @@ public:
     void deselectCards(Array<size_t> idcs);
     void deselectAllCards();
 
-    bool moveSelectedCard(size_t newIdx);
-    bool swapSelectedCards();
+    void toggleCardSelected(size_t idx);
+
+    // bool moveSelectedCard(size_t newIdx);
+    // bool swapSelectedCards();
+
+    void moveCard(size_t cidx, size_t nidx);
 
     void discardSelectedCards();
     void playSelectedCards();

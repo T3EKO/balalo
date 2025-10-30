@@ -11,7 +11,9 @@ struct HandInfo {
     std::shared_ptr<HandInstance> hand;
     Array<size_t> matches;
 
-    HandInfo(std::shared_ptr<HandInstance> hand, Array<size_t> matches); 
+    HandInfo(std::shared_ptr<HandInstance> hand, Array<size_t> matches);
+
+    size_t getBestMatch(Array<std::shared_ptr<PlayingCard>> cards);
 };
 
 struct HandCheckResult {

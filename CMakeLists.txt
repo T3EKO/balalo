@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(Balalo VERSION 0.1.0 LANGUAGES C CXX)
 
-
+add_subdirectory(lib/FTXUI)
 
 add_executable(Balalo balalo.h main.cpp
     ulilities/array.h ulilities/array.cpp
@@ -16,7 +16,13 @@ add_executable(Balalo balalo.h main.cpp
     balalo/game_manager.h balalo/game_manager.cpp
 )
 
+target_include_directories(Balalo PRIVATE $(CMAKE_CURRENT_BINARY_DIR)/lib/FTXUI)
 
+target_link_libraries(Balalo
+    PRIVATE ftxui::screen
+    PRIVATE ftxui::dom
+    PRIVATE ftxui::component
+)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

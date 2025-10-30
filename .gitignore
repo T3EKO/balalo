@@ -5,3 +5,5 @@ out/
 lib/raylib/
 
 lib/raylib-cpp/
+
+lib/FTXUI
